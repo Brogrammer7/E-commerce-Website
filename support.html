@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="stararcades.css" rel="stylesheet">
+<title>Help & FAQ</title>
+<script defer src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header>	
+<h1>Support</h1>
+</header>
+<nav>
+<ul>	
+<li><a href="index.html">Home</a></li> 
+<li><a href="about.html">About</a></li> 
+<li><a href="pricing.html">Pricing</a></li>  
+<li><a href="support.html">Support</a></li>  
+</ul>	
+</nav>
+<main>
+<h2>Frequently Asked Questions:</h2>	
+<table>
+  <tr>
+    <th>System doesn't power up</th>
+    <td>Check all connectors and ensure wide-blade of power cord is inserted correctly.</td>
+  </tr>
+  <tr>
+    <th>Corners of game screen are cut off</th>
+    <td>This is not a defect. Game is in 4:3 format. Change output to 16:9 in settings to get full screen image.</td>
+  </tr>
+  <tr>
+    <th>Save game feature doesn't work</th>
+    <td>Not all games support this function. See a list of games that do <a href="http://www.mamedb.com">here</a>.</td>
+  </tr>
+  <tr>
+</table>
+<br>
+<h2>Contact Us:</h2>
+<p style="margin-left: 10px">Can't find your solution here? We're happy to help!</p>
+<div id="error" style="margin-left: 10px; color: red;"></div>
+<form id="form" action="/" method="GET">
+  <div>
+    <label for="custName">Name:</label>
+    <input id="custName" name="custName" type="text" >
+  </div>
+  <div>
+    <label for="email">E-mail:</label>
+    <input id="email" name="email" type="email">
+  </div>
+  <div>
+    <label for="comment">Message:</label>
+    <textarea id="comment" rows="5" cols="23"></textarea>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+</main>	
+<footer>
+Copyright &copy;2020 Star Arcades
+<br>For Sales Inquiries please contact: <a href="mailto:sales@stararcades.com">sales@stararcades.com</a>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  }
+header, nav, main, footer { display: block; }  
+
+head	 { background-color: #003366;
+		   color: #AEC3E3; 
+		   font-family: Times New Roman; }	
+body     {  background-image: url("bgrd.jpg");
+            font-family: Arial, Verdana, sans-serif; }		   
+header	 { background-color: #FF19D9;
+		   height: 150px; 
+		   color: white;
+		    }		   
+h1       { line-height: 250%;	
+		   text-indent: 1em; 
+		   text-align: center;
+		   margin-bottom: 0;
+		   font-size: 3em;
+		   padding: 0.2em;
+		   text-shadow: 2px 2px #CCCCCC;
+		   background-image: url("marquee.png");
+		   background-position: center;
+		   background-repeat: no-repeat;}
+main	 { padding-left: 2em;
+	       padding-right: 2em;
+		   margin-left: 180px;
+		   background-color: #FFFFFF;
+		   border-style: solid;
+		   border-color: #AEC3E3;
+		   border-width: 1px;
+		   }
+nav      { float: left;
+		   width: 180px;
+	       font-weight: bold; 
+		   padding: 5px; 
+		   font-size: 1.4em;
+			}	
+nav a 	 { text-decoration: none; }		
+nav a:link { color: #000066; }
+nav a:visited { color: #5280C5; }
+nav a:hover { color: #3262A3; }			
+nav ul      { list-style: none;
+}
+dt		 { color: #5280C5;
+		   font-weight: bold;
+           font-size: 1.1em;		   
+		   font-family: Georgia;}
+img		 { border-style: none; }   	
+footer   { font-size: 1.2em;
+		   font-style: italic; 
+		   text-align: center; 
+		   padding: 1em;
+		   margin-left: 180px;
+		   background-color: #7FFF00; }
+.category {	color: #5380C5;	
+		    font-weight: bold;	
+		    font-family: Georgia;
+			text-shadow: 1px 1px 1px #667; } 
+#wrapper { margin-left: auto;
+		   margin-right: auto;
+		   width: 80%; 
+		   background-color: #696969;
+		   min-width: 700px;}		
+table { 
+margin: 1em;
+border-style: 2px solid #000080;
+border-collapse: collapse;
+}  
+td, th{
+	padding: 0.5em;
+	border: 1px solid #000080;
+}  
+
+form { padding: 2em;
+}
+label {
+	   float: left;
+	   display: block;
+	   text-align: right;
+	   width: 8em;
+	   padding-right: 1em;
+}
+input, textarea { display: block;
+				  margin-bottom: 1em;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+  color: black;
+}
+button	{
+	margin-left: 13.7em;
+}		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
